@@ -4,8 +4,16 @@
         <meta charset="UTF-8">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
+        <script src="cods.js"></script>
     </head>
     <body>
+        <div class="pop-up">
+            <div class="pop-up_add-to-server_bg">
+                <div class="pop-up_add-to-server">
+
+                </div>
+            </div>
+        </div>
         <div class="bot-info">
             <div class="header">
                 <div class="info">
@@ -19,8 +27,8 @@
                         </b>
                     </div>
                     <div class="button-meny">
-                        <input class="add-to-server" type="button" value="Добавить на сервер">
-                        <input class="barsik-community-server" type="button" value="Барсик community server">
+                        <input onclick="add_to_server()" class="add-to-server" type="button" value="Добавить на сервер">
+                        <input onclick="barsik_community_server()" class="barsik-community-server" type="button" value="Барсик community server">
                     </div>
                 </div>
             </div>
