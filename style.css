@@ -35,7 +35,7 @@ body{
     height: 80%;
     left: 10%;
     top: 10%;
-    border-radius: 250px 0% 0% 250px;
+    border-radius: 250px 25px 25px 250px;
 }
 
 .bot-info .header .info .text{
@@ -52,4 +52,46 @@ body{
     font-family: inherit;
     font-size: 20px;
     color: white;
+}
+
+.bot-info .header .info .text .discriminator{
+    position: absolute;
+    color: #CCCCCC;
+    left: 26%;
+    top: 6%;
+}
+
+.bot-info .header .info .button-meny{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    left: 70%;
+}
+
+.bot-info .header .info .button-meny .add-to-server{
+    border: none;
+    background-color: #5865F2;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 35px 5px 35px;
+    margin: 10px 0px 5px 0px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.bot-info .header .info .button-meny .add-to-server:hover{
+    background-color: #4752C4;
+}
+.bot-info .header .info .button-meny .barsik-community-server{
+    transition: background-color 1s;
+    border: none;
+    background-color: #2D7D46;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 22px 5px 22px;
+    margin: 10px 0px 5px 0px;
+    cursor: pointer;
+}
+
+.bot-info .header .info .button-meny .barsik-community-server:hover{
+    background-color: #215B32;
 }
